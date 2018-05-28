@@ -3,6 +3,7 @@
 %This scipt is a modified version of the loop_back sript provided by
 %play_rec. The Original loop_back sript recorded the data on the microphone
 %and play the recorded sample on the speaker.
+%Inorder to run this sript it is required that playrec is install.
 
 %This script is made in such a way that the speaker emits a puls of sound and 
 %the microphones records the pulse and the echo coming back 
