@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addOn>
+  <identifier>e550e1d1-4a80-11e4-9553-005056977bd0</identifier>
+  <displayType>Function</displayType>
+  <translatedDisplayType>
+    <en_US>Function</en_US>
+    <ja_JP>関数</ja_JP>
+    <ko_KR>함수</ko_KR>
+    <zh_CN>函数</zh_CN>
+  </translatedDisplayType>
+  <name>Fast and Robust Curve Intersections</name>
+  <author>Douglas Schwarz</author>
+  <version>2.0</version>
+  <downloadUrl>https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/11837/versions/4/download/zip?src=addons_ml_desktop_install&amp;profile_id=8628497</downloadUrl>
+  <previewImageUrl>https://www.mathworks.com/responsive_image/160/120/0/0/0/cache/add-ons/image/9da14e1fa2812426bd2c2df94d4c0c8d.png</previewImageUrl>
+  <installationFolder>Functions</installationFolder>
+</addOn>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addOn>
+  <identifier>d43f5d19-033b-4cb2-9c16-94bd86f84a0f</identifier>
+  <displayType>Function</displayType>
+  <translatedDisplayType>
+    <en_US>Function</en_US>
+    <ja_JP>関数</ja_JP>
+    <ko_KR>함수</ko_KR>
+    <zh_CN>函数</zh_CN>
+  </translatedDisplayType>
+  <name>Distance-based clustering of a set of XY coordinates</name>
+  <author>Yann Marcon</author>
+  <version>1.4</version>
+  <downloadUrl>https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/56150/versions/7/download/zip?src=addons_ml_desktop_install&amp;profile_id=8628497</downloadUrl>
+  <previewImageUrl>https://www.mathworks.com/responsive_image/160/120/0/0/0/cache/add-ons/image/512882386289b7ccf87ec1418e869df0.png</previewImageUrl>
+  <installationFolder>Functions</installationFolder>
+</addOn>
