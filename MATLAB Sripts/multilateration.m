@@ -244,9 +244,6 @@ if ~isempty(Y12) && ~isempty(Y23)
         temp1 = Y12(i,:);
         for j = 1:m23
             temp2 = Y23(j,:);
-            %Using a intersection add-on called Fast and Robust Curve
-            %Intersections. This finds all intersections between to
-            %fuctions
             [XOUT12a, YOUT12a] = intersections(x,temp1,x,temp2,true);
             XOUT12 = [XOUT12; XOUT12a];
             YOUT12 = [YOUT12; YOUT12a];
@@ -275,9 +272,6 @@ if ~isempty(Y23) && ~isempty(Y13)
             temp1 = Y23(i,:);
         for j = 1:m13
             temp2 = Y13(j,:);
-            %Using a intersection add-on called Fast and Robust Curve
-            %Intersections. This finds all intersections between to
-            %fuctions
             [XOUT23a, YOUT23a] = intersections(x,temp1,x,temp2,true);
             XOUT23 = [XOUT23; XOUT23a];
             YOUT23 = [YOUT23; YOUT23a];
@@ -307,9 +301,6 @@ if ~isempty(Y13) && ~isempty(Y12)
             temp1 = Y13(i,:);
         for j = 1:m12
             temp2 = Y12(j,:);
-            %Using a intersection add-on called Fast and Robust Curve
-            %Intersections. This finds all intersections between to
-            %fuctions
             [XOUT13a, YOUT13a] = intersections(x,temp1,x,temp2,true);
             XOUT13 = [XOUT13; XOUT13a];
             YOUT13 = [YOUT13; YOUT13a];
@@ -318,7 +309,7 @@ if ~isempty(Y13) && ~isempty(Y12)
     
     %Storing X and Y coordinate in array
     [~, n13]=size(XOUT13);
-    for i = 1:13
+    for i = 1:n13
         XOUT = [XOUT; real(XOUT13(:,i))];
     end
     [~, n13]=size(YOUT13);
@@ -358,9 +349,6 @@ scatter(pos_mic(:,1),pos_mic(:,2),100,'X')
 new_coords = [new_coords ; 0 , 0];
 
 %% %Clustering to find objects
-%Using a clustering add-on called Distance-based clustering of a set of XY
-%coordinates. This is used to find 3 points that have a distance between
-%them less than 0.0005m. and finds the mean for the 3 points.
 [clustersCentroids, clustersGeoMedians, clustersXY] = clusterXYpoints(new_coords, 0.0005, 3, 'point', 'merge');
 clustersCentroids
 
