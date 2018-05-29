@@ -4,6 +4,8 @@
 
 %In order to run this script it is required that RIR_generator made by
 %Emanuël Habets is installed.
+%https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator
+
 
 % This sript uses two add-Ons from the matlab add-on library. The first
 % add-on is made by Douglas Schwarz and is called 
